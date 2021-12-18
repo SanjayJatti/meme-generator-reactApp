@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Poppins:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 65px;
+  color: white;
+  padding: 20px;
+  background: linear-gradient(90deg, #672280, #a626d3);
+  display: flex;
+  align-items: center;
+}
+.header--img {
+  height: 100%;
+  margin-right: 7px;
+}
+.header--title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+.header--sub-title {
+  text-align: right;
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 15px;
+  margin-right: 37px;
+}
+
+main {
+  padding: 36px;
+  max-width: 100%;
+}
+.meme-form {
+  display: flex;
+  gap: 17px;
+}
+.meme--input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+.meme--input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.meme--button {
+  display: block;
+
+  width: 477px;
+  height: 40px;
+  margin: auto;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
