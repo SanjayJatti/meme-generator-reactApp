@@ -44,7 +44,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .meme--input {
@@ -65,8 +65,39 @@ main {
   border-radius: 5px;
   color: white;
   border: none;
+  cursor: pointer;
 }
+.meme {
+  position: relative;
+  margin-top: 1rem;
+}
+
 .meme-image {
-  width: 100%;
-  margin-top: 2rem;
+  width: 70%;
+  border-radius: 4px;
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
